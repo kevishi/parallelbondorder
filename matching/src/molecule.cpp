@@ -7,16 +7,12 @@
 #include <map>
 #include <cstdlib>
 #include <stdio.h>
-#include <Sparse>
-#include <Dense>
 #include <vector>
-#include <SparseLU>
 #include <stdlib.h>
 #include <unordered_map>
 #include "cycleTimer.h"
+#include <omp.h>
 using namespace std;
-using namespace Eigen;
-using Eigen::MatrixXd;
 extern int n;
 typedef pair<int,int> edge;
 typedef vector<int>* graph;
