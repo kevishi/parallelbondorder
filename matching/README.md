@@ -14,19 +14,7 @@ Assigning bond types requires finding a [perfect weighted match](https://en.wiki
 * Hydrogens are ignored
 * Edges out of a ring to an oxygen are assumed to be double bonds
 
-In this project, you will optimize bond order assignment (aka Kekule assignment), preparing a correct implementation of an efficient parallel perfect matching algorithm. The baseline implementations in existing open source cheminformatics libraries are correct, but are exponential in the number of fused rings (cycles). Initially, this wasn't a problem because most molecules are simple. Then someone tried a nanotube with hundreds of rings. Oops.
-
-[Labute](papers/Labute-2005.pdf) suggests a maximum matching algorithm, but the method is serial and too complicated anyway. Perfect matching algorithms can, of course, be parallel (e.g., [Chawla](papers/Chawla-2004.pdf) or [Mulmuley](papers/Mulmuley-1987.pdf)).
-
 Several target molecules are included through GitHub, ranging in size from 6-10 atoms (tiny) to 500+ atoms.
-
-Please contact me (geoffh@pitt.edu) if you have any questions about this.
-
-##Deliverables:
-
-- You can implement the matching algorithm in any language, although C++ is strongly preferred.
-- The implementation should be highly parallel. OpenMP is strongly preferred.
-- You must be willing to release your final code under a GPLv2, LGPL, or BSD (preferred) open source license
 
 ## Testing
 
