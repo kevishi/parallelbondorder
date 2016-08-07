@@ -2,7 +2,7 @@
 
 In chemistry and molecular biology, one often of a molecule as a graph, with atoms as the vertices and bonds as the bidirectional edges. Usually, we prefer to visualize different bond types: single, double, triple, etc. as a way of understanding their reactivity.
 
-![matching](/images/matching.png)
+Detailed Results: http://www.andrew.cmu.edu/user/kshi/finalreport.pdf
 
 In many cases, however, we are not given the edges of the graphs or their types. We must *perceive* them. Determining the connectivity is usually easy. Bonded atoms are close to each other, so simple distance constraints allow us to quickly find vertices.
 
